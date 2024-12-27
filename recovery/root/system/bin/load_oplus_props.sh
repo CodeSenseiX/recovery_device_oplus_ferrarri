@@ -64,6 +64,10 @@ case $oplus_project in
         resetprop ro.twrp.target.devices OP5953L1
         resetprop vendor.usb.product_string "OnePlus Nord CE3 5G"
         ;;
+    "23682")
+        resetprop ro.twrp.target.devices RE5C82L1,RE5C3B,RMX3840,RMX3841
+        resetprop vendor.usb.product_string "realme 12 Pro+ 5G"
+        ;;
 esac
 
 exit 0
